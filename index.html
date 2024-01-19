@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Web Loki</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="./scriptInicio.js"></script>
+</head>
+
+<body>
+  <div id="menu">
+    <h1>Bem vindo ao jogo do número secreto !</h1>
+    <h2>Selecione uma dificuldade abaixo !</h2>
+    <input type="radio" name="dificuldade" id="facil"><strong> Fácil - Número secreto pode ir de 0 até 50.</strong></br>
+    <input type="radio" name="dificuldade" id="normal"><strong> Médio - Número secreto pode ir de 0 até 100.</strong></br>
+    <input type="radio" name="dificuldade" id="dificil"><strong> Difícil - Número secreto pode ir de 0 até 1000.</strong></br>
+    <input type="radio" name="dificuldade" id="extremo"><strong> Extremo - Número secreto pode ir de 0 até 5000.</strong></br>
+    <input type="button" value="Confirmar dificuldade" id="btnDificuldade">
+    <input type="button" value="Começar o jogo" id="btnJogo">
+  </div>
+  <div id="container">
+    <h2>Número Secreto</h2>
+    <div class="timer"></div>
+    <div class="bloco">
+        <input type="text" id="entrada">
+        <input type="button" id="btnVerificar" value="Verificar">
+        <input type="checkbox" name="" id="checkErros">
+        <div id="impressao"></div>
+    </div>
+    <div class="bloco">
+      <div id="erros"></div>
+      <br/>
+      <div id="valoresErrados"></div>
+    </div>
+  </div>
+  <input type="button" value="Reiniciar o Jogo" id="btnReiniciar">
+  <div id="timer">
+    <div id="contador">00:00:00</div>
+  </div>
+  <script src="./scriptFinal.js"></script>
+</body>
+
+</html>

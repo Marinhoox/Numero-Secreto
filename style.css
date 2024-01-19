@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: lightgray;
+}
+
+#container{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.bloco{
+  border: 2px black solid;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: center;
+  background-color: lightskyblue;
+}
+
+#entrada{
+  width: 20%;
+  text-align: center;
+}
+
+#menu {
+  margin: 100px auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px black solid;
+  background-image: linear-gradient(lightskyblue, white, lightskyblue);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#btnDificuldade {
+  margin-left: 170px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 140px;
+  border-radius: 5px;
+  box-shadow: 5px 5px black;
+}
+
+#btnJogo {
+  margin-left: 170px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 140px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px black;
+}
+
+#btnReiniciar {
+  margin-left: 600px;
+  margin-top: 30px;
+  width: 120px;
+  border-radius: 5px;
+  box-shadow: 5px 5px black;
+}
+
+#timer {
+  width: 90px;
+  margin-left: 1200px;
+  margin-top: 400px;
+  border: 4px black solid;
+  padding: 5px;
+  font-size: 25px;
+}
